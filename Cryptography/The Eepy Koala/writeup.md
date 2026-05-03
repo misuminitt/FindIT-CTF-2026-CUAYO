@@ -2,7 +2,7 @@
 
 **Category:** Cryptography  
 **Author:** Dkulkas  
-**Files:** [enc.py](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/Cryptography/The%20Eepy%20Koala/enc.py), [koala-enc.ppm](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/Cryptography/The%20Eepy%20Koala/koala-enc.ppm)
+**Files:** [enc.py](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/Cryptography/The%20Eepy%20Koala/enc.py), [koala-enc.ppm](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/Cryptography/The%20Eepy%20Koala/koala-enc.ppm)
 
 ## Ringkasan
 Skema enkripsi menggunakan seed 16-bit untuk dua fungsi sekaligus: derivasi key AES-ECB dan permutasi blok ciphertext. Karena keyspace kecil, seed bisa di-bruteforce cepat dengan known-plaintext dari padding PKCS#7.

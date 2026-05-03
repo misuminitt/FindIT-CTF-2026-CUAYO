@@ -2,7 +2,7 @@
 
 **Category:** Cryptography  
 **Author:** imios  
-**File:** [Release.txt](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/Cryptography/I%20Forgor/Release.txt)
+**File:** [Release.txt](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/Cryptography/I%20Forgor/Release.txt)
 
 ## Ringkasan
 Challenge RSA ini menggunakan modulus yang sama (`n`) untuk dua ciphertext berbeda eksponen (`e1=3`, `e2=65537`). Karena `gcd(e1,e2)=1`, plaintext dapat dipulihkan dengan Common Modulus Attack tanpa faktorisasi `n`.

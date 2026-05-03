@@ -2,7 +2,7 @@
 
 **Category:** OSINT  
 **Author:** zenapietal  
-**File:** [picture11.jpg](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/OSINT/Memory/picture11.jpg)
+**File:** [picture11.jpg](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/OSINT/Memory/picture11.jpg)
 
 ## Ringkasan
 Challenge ini adalah geolocation dari satu foto, dengan target koordinat format DMS (`FindITCTF{DD_MM_SS_DIR_DD_MM_SS_DIR}`). Dari clue visual (area aquarium, signage restoran Jepang, dan layout jalan), lokasi dipastikan di area Tokyo Skytree/Solamachi.

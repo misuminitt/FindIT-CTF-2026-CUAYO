@@ -2,7 +2,7 @@
 
 **Category:** Miscellaneous  
 **Author:** dnday  
-**Files:** [metadata.bson](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/Digital%20Forensic/The%20Konoha%20Heist/metadata.bson), [blockchain_export.json](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/Digital%20Forensic/The%20Konoha%20Heist/blockchain_export.json), [server_log.txt](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/Digital%20Forensic/The%20Konoha%20Heist/server_log.txt)
+**Files:** [metadata.bson](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/Digital%20Forensic/The%20Konoha%20Heist/metadata.bson), [blockchain_export.json](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/Digital%20Forensic/The%20Konoha%20Heist/blockchain_export.json), [server_log.txt](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/Digital%20Forensic/The%20Konoha%20Heist/server_log.txt)
 
 ## Ringkasan
 Challenge ini menggabungkan blockchain trace, memory/log artifacts, dan metadata encoding bertingkat. Objective akhirnya menyusun empat komponen menjadi satu flag lengkap.

@@ -2,7 +2,7 @@
 
 **Category:** Digital Forensic  
 **Author:** gorbaz  
-**File:** [chall.img](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/Digital%20Forensic/debris/chall.img)
+**File:** [chall.img](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/Digital%20Forensic/debris/chall.img)
 
 ## Ringkasan
 Disk image berisi jejak artefak operasional: backup zip ber-password dan payload tersembunyi di file gambar. Solve path: carving image -> recover password -> ekstrak stego payload -> decode Base64.

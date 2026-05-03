@@ -2,7 +2,7 @@
 
 **Category:** Reverse Engineering  
 **Author:** vvry  
-**File:** [flash_drive](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/CTF-FIND-IT%20Day%202/Reverse%20Engineering/The%20Phantom%20-%20Locked%20Drive/flash_drive)
+**File:** [flash_drive](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/blob/main/Reverse%20Engineering/The%20Phantom%20-%20Locked%20Drive/flash_drive)
 
 ## Ringkasan
 Binary Linux x86-64 ini memakai anti-debug check, state machine, dan tiga validator input. Setelah ketiga input valid, binary melakukan dekripsi final berbasis hash FNV-1a dengan layout buffer overlap.

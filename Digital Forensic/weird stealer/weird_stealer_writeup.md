@@ -2,7 +2,7 @@
 
 **Category:** Digital Forensic  
 **Author:** buwung ap tu man  
-**File:** `stealer.zip` (tidak tersedia di folder lokal). Lihat folder: [weird stealer](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/tree/main/CTF-FIND-IT%20Day%202/Digital%20Forensic/weird%20stealer)
+**File:** `stealer.zip` (tidak tersedia di folder lokal). Lihat folder: [weird stealer](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/tree/main/Digital%20Forensic/weird%20stealer)
 
 ## Ringkasan
 Challenge memory forensics ini meminta kita mengekstrak artefak stealer dari dump memory, lalu mendekripsi data exfiltrasi. Payload ditemukan pada request `/checksum` dengan format `nonce(12 byte) + ciphertext`, dan key AES-256 berhasil dipulihkan dari memory.

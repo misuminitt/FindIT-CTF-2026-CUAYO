@@ -2,7 +2,7 @@
 
 **Category:** Reverse Engineering  
 **Author:** Etynslop  
-**File:** `challenge` (tidak tersedia di folder lokal). Lihat folder: [unoriginal](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/tree/main/CTF-FIND-IT%20Day%202/Reverse%20Engineering/unoriginal)
+**File:** `challenge` (tidak tersedia di folder lokal). Lihat folder: [unoriginal](https://github.com/misuminitt/FindIT-CTF-2026-CUAYO/tree/main/Reverse%20Engineering/unoriginal)
 
 ## Ringkasan
 Binary ELF non-stripped ini tampak seperti “free flag”, tetapi output flag keluar sangat lambat karena processing dibagi ke `slow()` dan `fast()`. Solve efektifnya adalah memahami dataflow per-record dan menghindari eksekusi normal penuh yang boros waktu.
