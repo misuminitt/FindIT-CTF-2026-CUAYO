@@ -1,0 +1,179 @@
+[INFO] [2026-04-22 00:00:00] ==========================================================
+[INFO] [2026-04-22 00:00:00] DAO Governance Server v2.1.0 - Starting up
+[INFO] [2026-04-22 00:00:00] ==========================================================
+[INFO] [2026-04-22 00:00:01] Loading configuration from /etc/dao/config.yaml
+[INFO] [2026-04-22 00:00:01] RPC endpoint: https://eth-mainnet.g.alchemy.com/v2/***
+[INFO] [2026-04-22 00:00:01] Chain ID: 1
+[INFO] [2026-04-22 00:00:02] Connected to Ethereum mainnet (block 19847199)
+[INFO] [2026-04-22 00:00:03] Initializing governance contract at 0xDAOTreasury0000...
+[INFO] [2026-04-22 00:00:04] Contract ABI loaded: 14 functions, 8 events
+[INFO] [2026-04-22 00:00:05] Vote event listener registered
+[INFO] [2026-04-22 00:00:05] Proposal event listener registered
+[INFO] [2026-04-22 00:00:06] Started HTTP server on 0.0.0.0:443
+[INFO] [2026-04-22 00:00:07] Metrics service started on 0.0.0.0:9090
+[INFO] [2026-04-22 00:00:08] Health check endpoint: /health
+[INFO] [2026-04-22 00:00:09] WebSocket server started on ws://0.0.0.0:8080
+[INFO] [2026-04-22 00:00:10] Node.js worker pool initialized (4 workers)
+[INFO] [2026-04-22 00:01:00] [CRON] Block sync task started
+[INFO] [2026-04-22 00:01:03] Synced to block 19847202
+[INFO] [2026-04-22 00:05:00] [CRON] Proposal expiry check started
+[INFO] [2026-04-22 00:05:01] Proposal #84: still active, 2d 3h remaining
+[INFO] [2026-04-22 00:05:01] Proposal #85: still active, 1d 12h remaining
+[INFO] [2026-04-22 00:05:01] Proposal #86: still active, 18h remaining
+[INFO] [2026-04-22 00:05:01] Proposal #87: voting period ended, queued for execution
+[INFO] [2026-04-22 00:10:00] [CRON] Token price oracle refresh
+[INFO] [2026-04-22 00:10:01] ETH/USD price updated: $2,320.14
+[INFO] [2026-04-22 00:10:01] DAO token (VDAO/ETH) price updated: 0.00014 ETH
+[INFO] [2026-04-22 00:15:00] [CRON] Block sync task started
+[INFO] [2026-04-22 00:15:02] Synced to block 19847263
+[INFO] [2026-04-22 00:20:11] User 0xAlice... authenticated via EIP-712 signature
+[INFO] [2026-04-22 00:20:13] 0xAlice... queried proposal list
+[INFO] [2026-04-22 00:22:47] User 0xBob... authenticated via EIP-712 signature
+[INFO] [2026-04-22 00:22:50] 0xBob... queried proposal #87 details
+[INFO] [2026-04-22 00:23:01] 0xBob... voted YES on proposal #87 (weight: 542 VDAO)
+[INFO] [2026-04-22 00:30:00] [CRON] Proposal expiry check
+[INFO] [2026-04-22 00:30:01] Proposal #84: 2d 2h 35m remaining
+[INFO] [2026-04-22 00:30:01] Proposal #87: queued for execution
+[INFO] [2026-04-22 00:45:00] [CRON] Block sync task started
+[INFO] [2026-04-22 00:45:03] Synced to block 19847381
+[INFO] [2026-04-22 01:00:00] ==========================================================
+[INFO] [2026-04-22 01:00:00] Routine system check passed
+[INFO] [2026-04-22 01:00:00] Active proposals: 4 | Total votes cast today: 12
+[INFO] [2026-04-22 01:00:00] Treasury balance: 500.00 ETH ($1,160,070)
+[INFO] [2026-04-22 01:00:00] ==========================================================
+[INFO] [2026-04-22 01:00:01] DAO Treasury server started. Listening on 0.0.0.0:443.
+[INFO] [2026-04-22 01:00:04] New connection from IP 10.0.0.101 (internal)
+[INFO] [2026-04-22 01:00:04] Session token issued to 10.0.0.101
+[INFO] [2026-04-22 01:02:15] User 0xCharlieDAO... authenticated
+[INFO] [2026-04-22 01:02:17] 0xCharlieDAO... queried treasury balance: 500.00 ETH
+[INFO] [2026-04-22 01:04:33] User 0xDave... authenticated via EIP-712 signature
+[INFO] [2026-04-22 01:04:36] 0xDave... voted NO on proposal #86 (weight: 210 VDAO)
+[INFO] [2026-04-22 01:05:00] [CRON] Block sync task started
+[INFO] [2026-04-22 01:05:03] Synced to block 19847440
+[INFO] [2026-04-22 01:06:12] [EVENT] VoteCast detected: from=0xDave, proposal=86, support=false
+[INFO] [2026-04-22 01:08:44] User 0xEve... authenticated
+[INFO] [2026-04-22 01:08:45] 0xEve... queried proposal #88 (not yet created)
+[INFO] [2026-04-22 01:08:46] Response: 404 Proposal Not Found
+[INFO] [2026-04-22 01:10:00] [CRON] Token price oracle refresh
+[INFO] [2026-04-22 01:10:01] ETH/USD price updated: $2,321.07
+[INFO] [2026-04-22 01:11:55] User 0xBob... authenticated
+[INFO] [2026-04-22 01:12:00] 0xBob... submitted new proposal #88
+[INFO] [2026-04-22 01:12:01] Proposal #88: "Emergency fund allocation - Q2 rebalancing"
+[INFO] [2026-04-22 01:12:01] Proposal #88: calldata length 132 bytes
+[INFO] [2026-04-22 01:12:02] Proposal #88: voting period set to 24h
+[INFO] [2026-04-22 01:12:03] [EVENT] ProposalCreated: id=88, proposer=0xBob, eta=86400s
+[INFO] [2026-04-22 01:12:05] Notification emails sent to 47 governance subscribers
+[INFO] [2026-04-22 01:14:22] Governance proposal #88 submitted by 0xBob...
+[INFO] [2026-04-22 01:14:55] User 0xAlice... voted YES on proposal #88 (weight: 1200 VDAO)
+[INFO] [2026-04-22 01:15:01] [EVENT] VoteCast: from=0xAlice, proposal=88, support=true
+[INFO] [2026-04-22 01:15:07] User 0xCharlieDAO... voted YES on proposal #88 (weight: 890 VDAO)
+[INFO] [2026-04-22 01:15:09] Quorum reached. Proposal #88 passed with 61% votes.
+[INFO] [2026-04-22 01:15:10] Proposal #88 status updated: ACTIVE -> SUCCEEDED
+[INFO] [2026-04-22 01:15:11] Proposal #88 queued for execution (timelock: 0s override by emergency flag)
+[INFO] [2026-04-22 01:15:44] User 0xBob... triggered execution of proposal #88
+[INFO] [2026-04-22 01:15:45] Executing proposal #88: transfer 50 ETH to 0xAttacker...
+[WARNING] [2026-04-22 01:15:46] Unusual execution path detected in proposal calldata.
+[WARNING] [2026-04-22 01:15:46] Calldata contains DELEGATECALL opcode — flagged for review
+[INFO] [2026-04-22 01:15:47] Transfer confirmed at block 19847261.
+[INFO] [2026-04-22 01:15:47] [EVENT] Transfer: from=0xDAOTreasury, to=0xAttacker, value=50ETH
+[INFO] [2026-04-22 01:15:48] Treasury updated: 500.00 ETH -> 450.00 ETH
+[ERROR] [2026-04-22 01:16:01] Unexpected reentry on contract 0xDAOTreasury...
+[ERROR] [2026-04-22 01:16:03] balanceOf check failed: inconsistent state
+[ERROR] [2026-04-22 01:16:04] Reentry detected again. Reentrancy guard failed!
+[ERROR] [2026-04-22 01:16:04] Stack trace: execute() -> transfer() -> fallback() -> execute()
+[ERROR] [2026-04-22 01:16:05] Fatal: treasury state corrupted. Halting.
+[WARNING] [2026-04-22 01:16:05] Total funds drained: 500 ETH.
+[WARNING] [2026-04-22 01:16:06] Treasury balance: 0.00 ETH
+[CRITICAL] [2026-04-22 01:16:07] DAO TREASURY EMPTIED — EMERGENCY PROTOCOL ACTIVATED
+[CRITICAL] [2026-04-22 01:16:07] Alerting on-call engineers...
+[CRITICAL] [2026-04-22 01:16:08] PagerDuty incident #P-8840213 created
+[CRITICAL] [2026-04-22 01:16:09] Slack alert sent to #dao-security-alerts
+[INFO] [2026-04-22 01:16:10] All write operations suspended
+[INFO] [2026-04-22 01:16:11] Freezing governance contract...
+[INFO] [2026-04-22 01:16:12] Emergency pause() called on 0xDAOTreasury: success
+[INFO] [2026-04-22 01:17:00] Engineer 0xOncall... connected from IP 72.14.204.1
+[INFO] [2026-04-22 01:17:00] Emergency takeover session initiated
+[INFO] [2026-04-22 01:17:01] Snapshot of current state requested
+[INFO] [2026-04-22 01:18:00] Snapshot created: dao_state_20260422_011800.json
+[INFO] [2026-04-22 01:18:30] Forensic mode enabled — all debug logging activated
+[INFO] [2026-04-22 01:19:00] Full memory dump initiated for process pool
+[INFO] [2026-04-22 01:19:15] Dumping worker_0 (PID 9038): 256MB
+[INFO] [2026-04-22 01:19:28] Dumping worker_1 (PID 9039): 256MB
+[INFO] [2026-04-22 01:19:41] Dumping worker_2 (PID 9040): 256MB
+[INFO] [2026-04-22 01:19:54] Dumping worker_3 (PID 9041): 256MB
+[INFO] [2026-04-22 01:19:57] Anomalous process detected: PID 9042 (not in process registry)
+[WARNING] [2026-04-22 01:19:58] PID 9042 was spawned by proposal execution hook — suspicious
+[INFO] [2026-04-22 01:20:00] Initiating emergency shutdown sequence...
+[DEBUG] [2026-04-22 01:20:01] Flushing process memory to disk...
+[DEBUG] [2026-04-22 01:20:02] process_9042_anomaly: 26852480951005303
+[DEBUG] [2026-04-22 01:20:02] process_9042_mem_0: 1886351180
+[DEBUG] [2026-04-22 01:20:02] process_9042_mem_1: 1280066636
+[DEBUG] [2026-04-22 01:20:03] process_9042_mem_2: 1509949520
+[DEBUG] [2026-04-22 01:20:03] process_9042_mem_3: 1195853638
+[DEBUG] [2026-04-22 01:20:04] process_9042_mem_4: 808530032
+[DEBUG] [2026-04-22 01:20:04] process_9042_mem_5: 1179010630
+[DEBUG] [2026-04-22 01:20:05] process_9042_mem_6: 1195853892
+[DEBUG] [2026-04-22 01:20:05] process_9042_mem_7: 1601464371
+[DEBUG] [2026-04-22 01:20:06] process_9042_mem_8: 1346651974
+[DEBUG] [2026-04-22 01:20:06] process_9042_mem_9: 1397966392
+[DEBUG] [2026-04-22 01:20:07] process_9042_mem_10: 808530033
+[DEBUG] [2026-04-22 01:20:07] process_9042_mem_11: 1195853637
+[DEBUG] [2026-04-22 01:20:08] process_9042_mem_12: 1332768831
+[DEBUG] [2026-04-22 01:20:08] process_9042_mem_13: 1482184792
+[DEBUG] [2026-04-22 01:20:09] process_9042_mem_14: 1836082808
+[DEBUG] [2026-04-22 01:20:09] process_9042_mem_15: 1701209960
+[DEBUG] [2026-04-22 01:20:09] process_9042_checksum_hint: 469853101879
+[DEBUG] [2026-04-22 01:20:10] process_9038_mem_0: 1685024870
+[DEBUG] [2026-04-22 01:20:10] process_9038_mem_1: 1869768277
+[DEBUG] [2026-04-22 01:20:11] process_9038_mem_2: 1818588787
+[DEBUG] [2026-04-22 01:20:11] process_9038_mem_3: 1970234734
+[DEBUG] [2026-04-22 01:20:12] process_9038_mem_4: 1668246639
+[DEBUG] [2026-04-22 01:20:12] process_9038_mem_5: 1936027241
+[DEBUG] [2026-04-22 01:20:13] process_9038_mem_6: 1667461231
+[DEBUG] [2026-04-22 01:20:13] process_9038_mem_7: 1853056882
+[DEBUG] [2026-04-22 01:20:14] process_9039_mem_0: 1953719668
+[DEBUG] [2026-04-22 01:20:14] process_9039_mem_1: 1734962285
+[DEBUG] [2026-04-22 01:20:15] process_9039_mem_2: 1650615649
+[DEBUG] [2026-04-22 01:20:15] process_9039_mem_3: 1684234849
+[DEBUG] [2026-04-22 01:20:16] process_9039_mem_4: 1635083887
+[DEBUG] [2026-04-22 01:20:16] process_9039_mem_5: 1936289382
+[DEBUG] [2026-04-22 01:20:17] process_9040_mem_0: 1766942326
+[DEBUG] [2026-04-22 01:20:17] process_9040_mem_1: 1950498895
+[DEBUG] [2026-04-22 01:20:18] process_9040_mem_2: 1651469428
+[DEBUG] [2026-04-22 01:20:18] process_9040_mem_3: 1668246639
+[DEBUG] [2026-04-22 01:20:19] process_9040_mem_4: 1885433958
+[DEBUG] [2026-04-22 01:20:19] process_9040_mem_5: 1970496628
+[DEBUG] [2026-04-22 01:20:20] process_9041_mem_0: 1667460710
+[DEBUG] [2026-04-22 01:20:20] process_9041_mem_1: 1701208941
+[DEBUG] [2026-04-22 01:20:21] process_9041_mem_2: 1684628068
+[DEBUG] [2026-04-22 01:20:21] process_9041_mem_3: 1851879023
+[DEBUG] [2026-04-22 01:20:22] process_9041_mem_4: 1667199847
+[DEBUG] [2026-04-22 01:20:22] process_9041_mem_5: 1970430052
+[DEBUG] [2026-04-22 01:20:23] process_9041_mem_6: 1651469428
+[INFO] [2026-04-22 01:20:24] Memory dump complete: 48 segments captured
+[INFO] [2026-04-22 01:20:25] Compressing dump to /var/log/dao/memdump_20260422.tar.gz
+[INFO] [2026-04-22 01:20:30] Archive size: 412 MB
+[INFO] [2026-04-22 01:20:31] Uploading dump to s3://dao-forensics/incidents/20260422/...
+[INFO] [2026-04-22 01:20:45] Upload complete
+[INFO] [2026-04-22 01:20:46] On-call engineer: "Initiating forensic analysis..."
+[INFO] [2026-04-22 01:20:50] DB state captured: 12,481 rows
+[INFO] [2026-04-22 01:20:51] Event log exported: 8,840 events since genesis
+[INFO] [2026-04-22 01:21:00] Revoking all active user sessions (47 sessions)
+[INFO] [2026-04-22 01:21:01] All sessions revoked.
+[INFO] [2026-04-22 01:21:02] Disabling public API endpoints
+[INFO] [2026-04-22 01:21:03] API gateway: maintenance mode ON
+[INFO] [2026-04-22 01:21:10] Maintenance script activated.
+[INFO] [2026-04-22 01:21:15] Cleanup of temp files in /tmp/dao-exec/* initiated
+[INFO] [2026-04-22 01:21:20] Removed 144 temp files
+[INFO] [2026-04-22 01:21:30] [POST-MORTEM] Possible root cause: unchecked reentrancy in execute()
+[INFO] [2026-04-22 01:21:31] [POST-MORTEM] Mitigation: ReentrancyGuard must be applied to execute()
+[INFO] [2026-04-22 01:21:32] [POST-MORTEM] Impact: 500 ETH lost (~$1,160,000 at time of incident)
+[INFO] [2026-04-22 01:21:40] Notifying legal team...
+[INFO] [2026-04-22 01:21:41] Notifying custodian wallet holders (3 signers)...
+[INFO] [2026-04-22 01:21:50] Multi-sig recovery proposal drafted
+[INFO] [2026-04-22 01:22:00] Waiting for 2/3 signers to approve recovery...
+[INFO] [2026-04-22 01:30:00] Emergency shutdown complete. All services terminated.
+[INFO] [2026-04-22 01:30:01] Final treasury balance: 0.00 ETH
+[INFO] [2026-04-22 01:30:02] ==========================================================
+[INFO] [2026-04-22 01:30:02] Server halted. Goodbye.
+[INFO] [2026-04-22 01:30:02] ==========================================================

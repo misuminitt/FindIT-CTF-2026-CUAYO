@@ -1,0 +1,4 @@
+reminder
+
+- ask before deciding
+- don't assume preferences
